@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HUM-900-RC-CAS
+D RF Modules HUM-RC Transceiver 900MHz Castellation
+K
+F https://linxtechnologies.com/wp/wp-content/uploads/hum-fff-rc.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\aalon\OneDrive\Documents\_Repositorio\KiCad_Ejemplos_1\Segundero con 555\Segundero 555.kicad_sch</source>
+    <date>07/04/2024 15:37:40</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Segundero</title>
+        <company/>
+        <rev>v2</rev>
+        <date>2024-02-28</date>
+        <source>Segundero 555.kicad_sch</source>
+        <comment number="1" value="por: Alejandro Alonso Puig"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="AFF1">
+      <value>LTS-6960HR</value>
+      <footprint>Display_7Segment:7SegmentLED_LTS6760_LTS6780</footprint>
+      <datasheet>https://datasheet.octopart.com/LTS-6960HR-Lite-On-datasheet-11803242.pdf</datasheet>
+      <libsource lib="Display_Character" part="LTS-6960HR" description="DISPLAY 7 SEGMENTS common A."/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="DISPLAY 7 SEGMENTS common A."/>
+      <property name="ki_keywords" value="display LED 7-segment"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfe9d396-6ca8-4894-a56f-0d4dc46438b9</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3ac3e37-c294-4438-ac4c-d9be1b2e43f0</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>470uF</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.80mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d6dcc8ca-c0f9-4ffb-a35f-df08ab68fcf7</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71fff94e-741c-4dd0-82ac-1f7dc37ec6b5</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ae0b53c-31c9-4fa1-8415-4971f15d5e2d</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>025ffb72-cb8a-4c76-b07c-a16bdb60ec19</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27a9bd53-fe61-40d4-b28b-22b2a13df8e0</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LED_THT:LED_D5.0mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1202b835-add8-4383-b7ea-5044d673543c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>5V in</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2f64760-42cb-4b02-aa35-c76551fbd4c5</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>970f7649-9d39-40fd-bee4-d2d9de63e95d</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c7c8b14-24bd-41b0-90b2-7372e3ace38e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9eee854-7a4a-4951-9a15-c615100f250d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1298af3-06c9-4821-9987-f4f31ede1bb8</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>330R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b3051c7-c440-490f-abf6-17092859ff5c</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>330R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0ceb1ae-3934-4367-aec8-81af8032a264</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>330R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30463cdb-824b-45d6-ade4-30e5e8dbaf61</tstamps>
+    </comp>
+    <comp ref="RN2">
+      <value>330R</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="Device" part="R_Pack08" description="8 resistor network, parallel topology"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="8 resistor network, parallel topology"/>
+      <property name="ki_keywords" value="R network parallel topology isolated"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2102d502-9054-4673-8573-a48c2bb02a43</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>7447</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <libsource lib="74xx_IEEE" part="7447" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d803f33-5a76-4c2f-be1f-93ca2582b3a0</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>7490</value>
+      <footprint>Package_DIP:DIP-14_W7.62mm</footprint>
+      <libsource lib="74xx_IEEE" part="7490" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e665e267-f97e-4dcd-ac2a-d531517cc1fa</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>NE555P</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <libsource lib="Timer" part="NE555P" description="Precision Timers, 555 compatible,  PDIP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Segundero 555.kicad_sch"/>
+      <property name="ki_description" value="Precision Timers, 555 compatible,  PDIP-8"/>
+      <property name="ki_keywords" value="single timer 555"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97bf17d1-ddc3-42a0-b654-197c58905165</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx_IEEE" part="7447">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7447</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="~{LT}" type="input"/>
+        <pin num="4" name="~{BI}" type="input"/>
+        <pin num="5" name="~{RBI}" type="input"/>
+        <pin num="6" name="D" type="input"/>
+        <pin num="7" name="A" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="~{e}" type="open_collector"/>
+        <pin num="10" name="~{d}" type="open_collector"/>
+        <pin num="11" name="~{c}" type="open_collector"/>
+        <pin num="12" name="~{b}" type="open_collector"/>
+        <pin num="13" name="~{a}" type="open_collector"/>
+        <pin num="14" name="~{g}" type="open_collector"/>
+        <pin num="15" name="~{f}" type="open_collector"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx_IEEE" part="7490">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7490</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CKB}" type="input"/>
+        <pin num="2" name="R0(1)" type="input"/>
+        <pin num="3" name="R0(2)" type="input"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="R9(1)" type="input"/>
+        <pin num="7" name="R9(2)" type="input"/>
+        <pin num="8" name="Q2" type="output"/>
+        <pin num="9" name="Q1" type="output"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="Q3" type="output"/>
+        <pin num="12" name="Q0" type="output"/>
+        <pin num="14" name="~{CKA}" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Pack08">
+      <description>8 resistor network, parallel topology</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>SOIC*</fp>
+        <fp>R*Array*Concave*</fp>
+        <fp>R*Array*Convex*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Pack08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1.1" type="passive"/>
+        <pin num="2" name="R2.1" type="passive"/>
+        <pin num="3" name="R3.1" type="passive"/>
+        <pin num="4" name="R4.1" type="passive"/>
+        <pin num="5" name="R5.1" type="passive"/>
+        <pin num="6" name="R6.1" type="passive"/>
+        <pin num="7" name="R7.1" type="passive"/>
+        <pin num="8" name="R8.1" type="passive"/>
+        <pin num="9" name="R8.2" type="passive"/>
+        <pin num="10" name="R7.2" type="passive"/>
+        <pin num="11" name="R6.2" type="passive"/>
+        <pin num="12" name="R5.2" type="passive"/>
+        <pin num="13" name="R4.2" type="passive"/>
+        <pin num="14" name="R3.2" type="passive"/>
+        <pin num="15" name="R2.2" type="passive"/>
+        <pin num="16" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Display_Character" part="LTS-6960HR">
+      <description>DISPLAY 7 SEGMENTS common A.</description>
+      <docs>https://datasheet.octopart.com/LTS-6960HR-Lite-On-datasheet-11803242.pdf</docs>
+      <footprints>
+        <fp>7SegmentLED?LTS6760?LTS6780*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">AFF</field>
+        <field name="Value">LTS-6960HR</field>
+        <field name="Footprint">Display_7Segment:7SegmentLED_LTS6760_LTS6780</field>
+        <field name="Datasheet">https://datasheet.octopart.com/LTS-6960HR-Lite-On-datasheet-11803242.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="e" type="passive"/>
+        <pin num="2" name="d" type="passive"/>
+        <pin num="3" name="C.A." type="passive"/>
+        <pin num="4" name="c" type="passive"/>
+        <pin num="5" name="DP" type="passive"/>
+        <pin num="6" name="b" type="passive"/>
+        <pin num="7" name="a" type="passive"/>
+        <pin num="8" name="C.A." type="passive"/>
+        <pin num="9" name="f" type="passive"/>
+        <pin num="10" name="g" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="NE555P">
+      <description>Precision Timers, 555 compatible,  PDIP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne555.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE555P</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ne555.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx_IEEE">
+      <uri>C:\Users\aalon\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/74xx_IEEE.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Users\aalon\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Users\aalon\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Display_Character">
+      <uri>C:\Users\aalon\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Display_Character.kicad_sym</uri>
+    </library>
+    <library logical="Timer">
+      <uri>C:\Users\aalon\AppData\Local\Programs\KiCad\7.0\share\kicad\symbols\/Timer.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="AFF1" pin="3" pinfunction="C.A." pintype="passive"/>
+      <node ref="AFF1" pin="8" pinfunction="C.A." pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="~{LT}" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="~{BI}" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="~{RBI}" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="Earth">
+      <node ref="AFF1" pin="5" pinfunction="DP" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="R0(1)" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="R0(2)" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="R9(1)" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="R9(2)" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(AFF1-a)">
+      <node ref="AFF1" pin="7" pinfunction="a" pintype="passive"/>
+      <node ref="RN2" pin="16" pinfunction="R1.2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(AFF1-b)">
+      <node ref="AFF1" pin="6" pinfunction="b" pintype="passive"/>
+      <node ref="RN2" pin="15" pinfunction="R2.2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(AFF1-c)">
+      <node ref="AFF1" pin="4" pinfunction="c" pintype="passive"/>
+      <node ref="RN2" pin="14" pinfunction="R3.2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(AFF1-d)">
+      <node ref="AFF1" pin="2" pinfunction="d" pintype="passive"/>
+      <node ref="RN2" pin="13" pinfunction="R4.2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(AFF1-e)">
+      <node ref="AFF1" pin="1" pinfunction="e" pintype="passive"/>
+      <node ref="RN2" pin="12" pinfunction="R5.2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(AFF1-f)">
+      <node ref="AFF1" pin="9" pinfunction="f" pintype="passive"/>
+      <node ref="RN2" pin="11" pinfunction="R6.2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(AFF1-g)">
+      <node ref="AFF1" pin="10" pinfunction="g" pintype="passive"/>
+      <node ref="RN2" pin="10" pinfunction="R7.2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="~{CKA}" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D3-A)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D5-A)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(RN2-R1.1)">
+      <node ref="RN2" pin="1" pinfunction="R1.1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="~{a}" pintype="open_collector"/>
+    </net>
+    <net code="17" name="Net-(RN2-R2.1)">
+      <node ref="RN2" pin="2" pinfunction="R2.1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="~{b}" pintype="open_collector"/>
+    </net>
+    <net code="18" name="Net-(RN2-R3.1)">
+      <node ref="RN2" pin="3" pinfunction="R3.1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="~{c}" pintype="open_collector"/>
+    </net>
+    <net code="19" name="Net-(RN2-R4.1)">
+      <node ref="RN2" pin="4" pinfunction="R4.1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="~{d}" pintype="open_collector"/>
+    </net>
+    <net code="20" name="Net-(RN2-R5.1)">
+      <node ref="RN2" pin="5" pinfunction="R5.1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="~{e}" pintype="open_collector"/>
+    </net>
+    <net code="21" name="Net-(RN2-R6.1)">
+      <node ref="RN2" pin="6" pinfunction="R6.1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="~{f}" pintype="open_collector"/>
+    </net>
+    <net code="22" name="Net-(RN2-R7.1)">
+      <node ref="RN2" pin="7" pinfunction="R7.1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="~{g}" pintype="open_collector"/>
+    </net>
+    <net code="23" name="Net-(U1-A)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="A" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="~{CKB}" pintype="input"/>
+      <node ref="U2" pin="12" pinfunction="Q0" pintype="output"/>
+    </net>
+    <net code="24" name="Net-(U1-B)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="U2" pin="9" pinfunction="Q1" pintype="output"/>
+    </net>
+    <net code="25" name="Net-(U1-C)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="C" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="Q2" pintype="output"/>
+    </net>
+    <net code="26" name="Net-(U1-D)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="D" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="Q3" pintype="output"/>
+    </net>
+    <net code="27" name="Net-(U3-CV)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(U3-DIS)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(U3-THR)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="30" name="unconnected-(RN2-R8.1-Pad8)">
+      <node ref="RN2" pin="8" pinfunction="R8.1" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(RN2-R8.2-Pad9)">
+      <node ref="RN2" pin="9" pinfunction="R8.2" pintype="passive"/>
+    </net>
+  </nets>
+</export>
